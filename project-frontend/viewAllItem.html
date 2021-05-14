@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <title>Inventory System</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="menu">
+            <ul>
+                <li class="logo"><img src="file:///C:/Users/Jackpot/Pictures/logo.png"> </li>
+                <li><a href="./homepage.html" class="homepage-btn">Home</a></li>
+                <li><a href="./addItem.html" class="add-item-btn">Add item</a></li>
+                <li>
+                    <a class="active"></a>View item</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <table class="minimalistBlack">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Quantity</th>
+                        <th>Category</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td onclick="myFunction(this)">cell1_1</td>
+                        <td>cell2_1</td>
+                        <td>cell3_1</td>
+                    </tr>
+                    <tr>
+                        <td onclick="myFunction(this)">cell1_2</td>
+                        <td>cell2_2</td>
+                        <td>cell3_2</td>
+                    </tr>
+                    <tr>
+                        <td onclick="myFunction(this)">cell1_3</td>
+                        <td>cell2_3</td>
+                        <td>cell3_3</td>
+                    </tr>
+                    <tr>
+                        <td onclick="myFunction(this)">cell1_4</td>
+                        <td>cell2_4</td>
+                        <td>cell3_4</td>
+                    </tr>
+                    <tr>
+                        <td onclick="myFunction(this)">cell1_5</td>
+                        <td>cell2_5</td>
+                        <td>cell3_5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+<script>
+    function myFunction(x) {
+        document.location = 'viewItem.html';
+    }
+</script>
+
+</html>

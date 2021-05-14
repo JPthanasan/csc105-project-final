@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login - Inventory System</title>
+
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="loginHeader">
+            <h1>Inventory System</h1>
+        </div>
+        <div class="loginBody">
+            <form>
+                <div class="container">
+                    <h1>Log in</h1>
+                    <hr>
+
+                    <label for="Username"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="Username" id="Username" required>
+
+                    <label for="psw"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+                    <hr>
+
+                    <button id="register-submit" class="registerbtn">Login</button>
+                </div>
+
+                <div class="container signin">
+                    <p>Don't have an account? <a href="./Register.html">Sign up</a>.
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="app.js">
+        document.getElementById("register-submit").addEventListener("click", (event) => {
+            event.preventDefault();
+            const username = document.getElementById("Username").value
+            const password = document.getElementById("psw").value
+            console.log(username, password);
+            const formData = new FormData();
+            formData.append('username', username);
+            formData.append('password', password);
+            fetch('http://localhost:8080/project_backend_war_exploded/SigninServlet', {
+                credentials: "include",
+                method: "POST",
+                body: formData
+            })
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background: #42455a;
+}
+
+.menu ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0 20px;
+    color: #b2b1b1;
+    cursor: pointer;
+}
+
+.logo img {
+    width: 75px;
+    margin-top: -7px;
+    margin-right: 48px;
+}
+
+.active {
+    color: #19dafa !important;
+}
+
+.login-btn {
+    top: 40px;
+    right: 80px;
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+.login-btn span {
+    display: block;
+    padding: 8px 22px;
+}
+
+.banner {
+    width: 80%;
+    height: 70%;
+    top: 15%;
+    left: 130px;
+    position: absolute;
+    color: #fff;
+}
+
+.app-text {
+    width: 50%;
+    float: left;
+}
+
+.app-text h1 {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+ul.menu-list:hover {
+    color: #fff;
+}
+
+.head-text {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.input-container {
+    display: flex;
+}
+
+.app-text h4 {
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: black;
+}
+
+.app-text h1 {
+    color: black;
+}
+
+.banner {
+    background: url(file:///C:/Users/Jackpot/Desktop/inv/img/BG-login.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 70%;
+    top: 15%;
+    left: 0px;
+    position: absolute;
+    color: #fff;
+    backdrop-filter: blur(20%);
+}
+
+body {
+    background: #C3E6F3 no-repeat center center fixed;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+    /* IE Fallback */
+    background: #c3e6f4;
+    width: 100%;
+    height: 100%;
+}
+
+.blueButton {
+    -moz-box-shadow: inset 0px -3px 7px 0px #29bbff;
+    -webkit-box-shadow: inset 0px -3px 7px 0px #29bbff;
+    box-shadow: inset 0px -3px 7px 0px #29bbff;
+    background-color: #0088BB;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #0088BB;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 9px 23px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+}
+
+.blueButton:hover {
+    background-color: #369cb8;
+}
+
+.blueButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.redButton {
+    -moz-box-shadow: inset 0px -3px 7px 0px #8a2a21;
+    -webkit-box-shadow: inset 0px -3px 7px 0px #8a2a21;
+    box-shadow: inset 0px -3px 7px 0px #8a2a21;
+    background-color: #c62d1f;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #d02718;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 9px 23px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #810e05;
+}
+
+.redButton:hover {
+    background-color: #f24437;
+}
+
+.redButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.enterOrder input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: none;
+    text-align: left;
+}
+
+.enterOrder input[type=text]:focus {
+    border: 1px solid #a8a8a8;
+}
+
+.enterOrder input[type=submit],
+.enterOrder input[type=button] {
+    float: right;
+    margin: -20px 20px 10px 0px;
+}
+
+.enterOrder {
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 40px;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 20px;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.enterOrderHeader {
+    text-align: center;
+}
+
+select {
+    width: 95%;
+    padding: 12px 20px;
+    margin: auto 0;
+    display: block;
+    border-radius: 4px;
+    text-align: left;
+    font-size: 16px;
+}
+
+table.minimalistBlack {
+    border: 3px solid #000000;
+    width: 70%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left: 300px;
+}
+
+table.minimalistBlack td,
+table.minimalistBlack th {
+    border: 1px solid #000000;
+    padding: 5px 4px;
+}
+
+table.minimalistBlack tbody td {
+    font-size: 13px;
+    background-color: #888888
+}
+
+table.minimalistBlack thead {
+    background: #888888;
+    background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+    background: -webkit-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+    background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #CFCFCF 100%);
+    border-bottom: 3px solid #000000;
+}
+
+table.minimalistBlack thead th {
+    font-size: 15px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+.edit-btn {
+    -moz-box-shadow: inset 0px -3px 7px 0px #29bbff;
+    -webkit-box-shadow: inset 0px -3px 7px 0px #29bbff;
+    box-shadow: inset 0px -3px 7px 0px #29bbff;
+    background-color: #0088BB;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #0088BB;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: Arial;
+    font-size: 15px;
+    padding: 9px 23px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #263666;
+    margin-left: 550px;
+}
+
+.edit-btn:hover {
+    background-color: #369cb8;
+}
+
+.edit-btn:active {
+    position: relative;
+    top: 1px;
+}
